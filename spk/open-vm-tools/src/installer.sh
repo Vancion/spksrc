@@ -31,7 +31,7 @@ postinst ()
     mkdir ${INSTALL_DIR}/var
 
     # remove network script, because it will stop the poweroff script
-    rm -f ${SYNOPKG_PKGDEST}/etc/vmware-tools/scripts/vmware/network
+    #rm -f ${SYNOPKG_PKGDEST}/etc/vmware-tools/scripts/vmware/network
 
     # create link for etc and lib
     [ -e /etc/vmware-tools ] || ln -s ${SYNOPKG_PKGDEST}/etc/vmware-tools /etc/vmware-tools
