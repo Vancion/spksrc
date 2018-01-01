@@ -1,9 +1,9 @@
 SPK_NAME = open-vm-tools
-SPK_VERS = 10.0.7
+SPK_VERS = 10.2.0
 SPK_REV = 1
 SPK_ICON = src/open-vm-tools.png
 
-REQUIRED_DSM = 6.0
+REQUIRED_DSM = 6.1
 BETA = 1
 
 DEPENDS = cross/$(SPK_NAME)
